@@ -1,5 +1,6 @@
 package txw.study.impl;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import txw.study.resp.HelloResp;
 import txw.study.service.HelloService;
@@ -11,6 +12,7 @@ import java.util.Objects;
  * @author tao xing wei
  */
 @Service
+@Slf4j
 public class HelloServiceImpl implements HelloService {
 
     @Override
